@@ -1,0 +1,39 @@
+{
+  "name": "internship-register-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungluu18/internship-server.git"
+  },
+  "author": "tungluu18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tungluu18/internship-server/issues"
+  },
+  "homepage": "https://github.com/tungluu18/internship-server#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "full-text-search-light": "0.0.17",
+    "json2xls": "^0.1.2",
+    "jsonwebtoken": "^8.2.1",
+    "knex": "^0.14.6",
+    "lodash": "^4.17.10",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.4",
+    "npm": "^6.0.0",
+    "sqlite3": "^4.0.0",
+    "striptags": "^3.1.1"
+  }
+}
